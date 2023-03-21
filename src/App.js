@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header.js';
+import Banner from './components/banner.js';
+import Body from './components/body.js';
+import Footer from './components/footer.js';
 
 function App() {
+
+  const temas=["Elemento 1",
+  "Elemento 2",
+  "Elemento 3",
+  "Elemento 4",
+  "Elemento 5",];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner texto='Top Banner'/>
+      <Header/>
+      <Banner texto='Middle Banner'/>
+      <Body practica="Esto es un arreglo" temas={temas}/>
+      <Footer>{<p>Bottom Banner</p>}</Footer>
     </div>
   );
 }

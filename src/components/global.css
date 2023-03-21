@@ -1,0 +1,49 @@
+.Banner{
+  background-color: rgba(85, 86, 88, 0.986);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.Body{
+  background-color: rgba(128, 128, 128, 0.075);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Footer{
+  background-color: rgba(85, 86, 88, 0.986);
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.Header-logo {
+  height: 20vmin;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Header-header {
+  background-color: white;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
